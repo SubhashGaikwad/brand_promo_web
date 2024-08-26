@@ -11,12 +11,12 @@ import { Router } from '@angular/router';
     >
       <img
       mat-button
-        src="./assets/images/logoo.png"
+        src="./assets/images/brand_niti_logo.png"
         class="matero-branding-logo-expanded"
         alt="logo"
         style="height: 22px; width: 27px;"
       />
-      <span class="brand-name" style="color: white;">E Office</span>
+      <span class="brand-name" style="color: white;">Brandniti</span>
     </button>
   `,
   styles: [

@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/eoffice-web'),
+      dir: require('path').join(__dirname, './coverage/brandnti-web'),
       subdir: '.',
       reporters: [
         { type: 'html' },

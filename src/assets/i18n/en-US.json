@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Smart Office"
+    "title": "brandnti"
   },
   "menu": {
     "previousdate":" Previous Hearing Date :",
@@ -16,8 +16,8 @@
     "confirmPassword":"Confirm Password",
     "selectmarker":"Select Marker",
     "nexthearing":"Next Hearing Date",
-    "copyright":"TechVishwaguru@2022",
-    "copyrightlogin":"Powered by TechVishwaguru©2022",
+    "copyright":"brandnti@2024",
+    "copyrightlogin":"Powered by brandnti©2024",
     "comment": "Comment",
     "selfletter": "Self Generated Letter",
     "section": "Section",
@@ -60,8 +60,8 @@
     "assignedDateTo": "Assigned Date To",
     "subject": "Subject",
     "currentStatus": "Status",
-    "parameter": "Sender/Designation",
-    "newParameter": "Add Sender/Designation ",
+    "parameter": "Designation",
+    "newParameter": "Add Designation ",
     "dakAssignee": "Assigned To",
     "action": "Action",
     "senderOutward": "Outward",
@@ -281,7 +281,7 @@
     "reset": "Reset Password"
   },
   "headerr": {
-    "title": "District Deputy Registrar Co-operative Society Pune, Rural",
+    "title": "Brandniti  Advertisement Solutions",
     "subtitle": "Work Description Register",
     "subtitleinward": "Work Description Inward Register",
     "subtitleHandedOver": "Letter Transaction - Handed Over",

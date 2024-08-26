@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Smart Office"
+    "title": "brandnti"
   },
   "menu": {
     "previousdate":" मागिल​ सुनावणी दिनांक :",
@@ -16,8 +16,8 @@
     "confirmPassword":"पासवर्डची पुष्टी करा",
     "selectmarker":"मार्कर निवडा",
     "nexthearing":"पुढील सुनावणी तारीख",
-    "copyright":"TechVishwaguru@2022",
-    "copyrightlogin":"Powered by VishwaGuru Infotech®",
+    "copyright":"brandnti@2024",
+    "copyrightlogin":"Powered by brandnti®",
     "comment":"केलेली कारवाई",
     "selfletter":"स्वयंम निर्मित पत्र",
     "section":"शाखा​",
@@ -271,7 +271,7 @@
     "reset":" रिसेट​ पासवर्ड"
   },
   "headerr": {
-    "title": "जिल्हा उपनिबंधक - सहकारी संस्था पुणे, ग्रामीण",
+    "title": "ब्रँडनिटी जाहिरात सोल्यूशन्स.",
     "subtitle":"कार्यविवरण नोंदवही",
     "subtitleinward":"कार्यविवरण आवक नोंदवही",
     "subtitleHandedOver":"पत्रव्यवहार - सुपुर्द अहवाल",

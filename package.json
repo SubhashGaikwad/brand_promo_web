@@ -1,5 +1,5 @@
 {
-  "name": "eoffice-web",
+  "name": "brandnti",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -9,7 +9,7 @@
     "test": "ng test",
     "build:qa": "ng build --source-map --configuration=qa --baseHref=./",
     "build:preprod": "ng build --source-map --configuration=preprod --baseHref=./",
-    "build:release": "ng build --prod --baseHref=/smarteoffice/",
+    "build:release": "ng build --prod --baseHref=/brandnti/",
     "build:prod": "ng build --configuration=production --baseHref=./",
     "lint": "npm run lint:ts && npm run lint:scss",
     "lint:ts": "eslint \"src/**/*.ts\" --fix",

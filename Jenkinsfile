@@ -27,7 +27,7 @@ node {
 
         stage('Build') {
             // Build the Angular app
-            sh "ng build --source-map --configuration=${profile} --base-href=./ --output-path=dist/eoffice"
+            sh "ng build --source-map --configuration=${profile} --base-href=./ --output-path=dist/brandnti"
         }
 
         stage('Approve Deployment') {
@@ -38,20 +38,20 @@ node {
 
         stage('Archive Artifacts') {
             // Archive the build artifacts
-            archiveArtifacts artifacts: 'dist/eoffice/**', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'dist/brandnti/**', allowEmptyArchive: true
         }
 
         stage('Deploy to Apache2') {
 
             // Remove the specific app deployment
             sh """
-                sudo rm -rf /var/www/html/eoffice-${profile}/
+                sudo rm -rf /var/www/html/brandnti-${profile}/
             """
 
             // Copy new deployment files
             sh """
-                sudo mkdir -p /var/www/html/eoffice-${profile}
-                sudo cp -r dist/eoffice/* /var/www/html/eoffice-${profile}/
+                sudo mkdir -p /var/www/html/brandnti-${profile}
+                sudo cp -r dist/brandnti/* /var/www/html/brandnti-${profile}/
             """
         }
 

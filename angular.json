@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "eoffice-web": {
+    "brandnti-web": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/eoffice-web",
+            "outputPath": "dist/brandnti-web",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -126,10 +126,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "eoffice-web:build:production"
+              "browserTarget": "brandnti-web:build:production"
             },
             "development": {
-              "browserTarget": "eoffice-web:build:development"
+              "browserTarget": "brandnti-web:build:development"
             },
             "options": {
               "proxyConfig": "proxy.config.js"
@@ -140,7 +140,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "eoffice-web:build"
+            "browserTarget": "brandnti-web:build"
           }
         },
         "test": {
@@ -173,5 +173,5 @@
       }
     }
   },
-  "defaultProject": "eoffice-web"
+  "defaultProject": "brandnti-web"
 }
